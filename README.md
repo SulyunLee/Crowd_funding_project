@@ -9,10 +9,10 @@ We used linear regression models to predict the backers' sentiment scores for th
 - The average sentiment scores estimated by the sentiment analysis of backers' comments after the delay.
 
 ### Independent variable
-- delay response - apology: founder apologizes for the delay
-- delay response - ignore: founder does not mention about the delay
-- delay response - promise: founder makes a promise or guarantee related to the delivery or production
-- delay response - transparency: founder provides a great deal of description about the founder's further actions
+- Delay response - apology: founder apologizes for the delay
+- Delay response - ignore: founder does not mention about the delay
+- Delay response - promise: founder makes a promise or guarantee related to the delivery or production
+- Delay response - transparency: founder provides a great deal of description about the founder's further actions
 
 ### Control variable
 - Founder type - team: The project is owned by a team entrepreneurs
