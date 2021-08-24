@@ -1,6 +1,6 @@
 # Crowd funding project
 ## Summary
-This project uses web-scraped data from Indiegogo crowd funding platform (https://www.indiegogo.com/) to explore the association between entrepreneurs' response to the delays of product delivery and backers' sentiment. We grouped the entrepreneurs' delay responses into four categories: apology, ignore, promise, and transparency. We used these four delay response categories and related control variables to predict the backers' sentiment scores that are measured using Python TextBlob sentiment analysis model. We used the linear regression models for the explanatory model analysis.
+This project uses web-scraped data from the Indiegogo crowdfunding platform (https://www.indiegogo.com/) to explore the association between entrepreneurs' responses to the delays of product delivery and backers' sentiment. We grouped the entrepreneurs' responses to delays into four categories: apology, ignore, promise, and transparency. We used these four delay response categories and related control variables to predict the backers' sentiment scores that are measured using the Python TextBlob sentiment analysis model. We used the linear regression models for the explanatory model analysis.
 
 ## Model description
 We used linear regression models to predict the backers' sentiment scores for the delays of products using the following independent variables and control variables. We used the variance inflation factor (VIF) to rule out the possible collinearity and log-transformation for the highly skewed variables.
